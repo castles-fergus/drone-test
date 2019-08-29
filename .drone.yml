@@ -1,6 +1,5 @@
 pipeline:
-  build:
-    image: node:latest
+  test:
+    image: golang
     commands:
-      - npm install
-      - npm run test
+      - go test
