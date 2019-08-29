@@ -2,7 +2,7 @@
 
 # Easy test
 
-```yml
+```yaml
 pipeline:
   test:
     image: golang
